@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/itemImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+
+
+        <TextView
+            android:id="@+id/itemNev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemImg"
+            android:padding="8dp"
+            android:text="@string/itemnev"/>
+
+        <RatingBar
+            android:id="@+id/rating"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemNev"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/itemInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rating"
+            android:padding="8dp"
+            android:text="@string/iteminfo"/>
+
+        <TextView
+            android:id="@+id/Moeloremegynemhatra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemInfo"
+            android:padding="8dp"
+            android:text="@string/jujujuj"
+            android:layout_centerHorizontal="true"
+            android:textColor="#DD1111"/>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

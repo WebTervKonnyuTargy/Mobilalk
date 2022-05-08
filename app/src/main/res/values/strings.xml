@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Zöldség és gyümölcs rendelés</string>
+    <string name="pw">Jelszó</string>
+    <string name="user">Felhasználónév</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="pwconf">Jelszó megerősítése</string>
+    <string name="email">Email cím</string>
+    <string name="nev">Vásárló neve</string>
+    <string name="phone">Telefonszám</string>
+    <string name="cim">Szállítási cím</string>
+    <string name="cancel">Mégse</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="itemnev">Leírás</string>
+    <string name="iteminfo">Info</string>
+    <string name="jujujuj">:(</string>
+    
+    <string-array name="shopping_item_names">
+        <item>Jonagold alma</item>
+        <item>Vilmos körte</item>
+        <item>Paradicsom</item>
+        <item>Webkert 2es</item>
+<!--        <item>Paradicsom</item>-->
+<!--        <item>Paradicsom</item>-->
+<!--        <item>Paradicsom</item>-->
+    </string-array>
+
+    <string-array name="shopping_item_cryisfree">
+        <item>Nincs raktáron:(</item>
+        <item>Nincs raktáron:(</item>
+        <item>Nincs raktáron:(</item>
+        <item>Nincs raktáron:(</item>
+<!--        <item>Nincs raktáron:(</item>-->
+<!--        <item>Nincs raktáron:(</item>-->
+<!--        <item>Nincs raktáron:(</item>-->
+    </string-array>
+
+    <string-array name="shopping_item_info">
+        <item>Nagyon fincsi nagyon jó!</item>
+        <item>Nagyon fincsi nagyon jó!</item>
+        <item>Friss paradicsom!</item>
+        <item>Ennek nem kéne látszódnia!</item>
+<!--        <item>Friss paradicsom!</item>-->
+<!--        <item>Friss paradicsom!</item>-->
+<!--        <item>Friss paradicsom!</item>-->
+    </string-array>
+
+    <array name="shopping_item_rating">
+        <item>4.5</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>1</item>
+<!--        <item>4</item>-->
+<!--        <item>4</item>-->
+<!--        <item>4</item>-->
+    </array>
+
+    <array name="shopping_item_img">
+        <item>@drawable/alma</item>
+        <item>@drawable/korte2</item>
+        <item>@drawable/paradicsom2</item>
+        <item>@drawable/common_google_signin_btn_icon_dark</item>
+<!--        <item>@drawable/paradicsom2</item>-->
+<!--        <item>@drawable/paradicsom2</item>-->
+<!--        <item>@drawable/paradicsom2</item>-->
+    </array>
+</resources>

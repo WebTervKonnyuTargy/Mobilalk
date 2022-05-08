@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "669146652338",
+    "project_id": "gyumi-b4ad5",
+    "storage_bucket": "gyumi-b4ad5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669146652338:android:723854ef8e18b38cd733ab",
+        "android_client_info": {
+          "package_name": "com.example.gyumi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669146652338-qvlm2u6a5d2iprsm32dn7ultinm68g7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ_efnaV348mdqL7hAafi8XEj6UzZPZDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669146652338-qvlm2u6a5d2iprsm32dn7ultinm68g7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
